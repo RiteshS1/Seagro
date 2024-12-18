@@ -22,7 +22,7 @@ const Navigation = () => {
             <Menu className="h-6 w-6 text-blue-600" />
             <span className="text-xl font-bold text-blue-600">SeaGro</span>
           </div>
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-6 text-sm">
             {navItems.map((item) => (
               <button
                 key={item.label}

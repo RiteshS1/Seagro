@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <Compass className="h-16 w-16 mx-auto mb-6" />
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 selection:text-red-400">
             Connect. Learn. Grow.
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-blue-100">
